@@ -8,7 +8,7 @@ def calculate_tax(amount, tax_rate):
     """
     try: 
         if amount < 0:
-            raise ValueError("Invalid amount: Not allowed to enter less than 0")
+            raise ValueError("Invalid Amount: Not allowed to enter less than 0")
         elif tax_rate < 0:
             raise ValueError("Invalid tax rate: Not allowed to enter less than 0%")
         else:
