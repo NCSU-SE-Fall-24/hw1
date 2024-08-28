@@ -14,4 +14,16 @@
 ![Test Workflow Status](https://img.shields.io/github/actions/workflow/status/NCSU-SE-Fall-24/hw1/test.yml)
 [![Code Coverage](https://codecov.io/github/NCSU-SE-Fall-24/hw1/branch/main/graph/badge.svg?token=Q7ET7NGT5H)](https://codecov.io/github/NCSU-SE-Fall-24/hw1)
 # CSC 510, Software Engineering, Fall 2024 
-## Homework 1
+## [Homework 1](https://txt.github.io/se24fall/hw1.html) 
+
+### Repo Structure
+1. myfile.py includes the code.
+2. test_myfile.py is testcase file.
+3. .github/workflows includes the workflow
+
+### Team Members
+| Name        | Unity ID |
+|-------------|----------|
+| Jap Purohit | jpurohi  |
+| Kenil Patel | kpatel47 |
+| Mihir Shah  | mshah25  |
