@@ -1,7 +1,7 @@
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-![GitHub Repo stars](https://img.shields.io/github/stars/NCSU-SE-Fall-24/hw1)
+![GitHub Repo stars](https://img.shields.io/github/stars/NCSU-SE-Fall-24/hw1?cacheSeconds=0)
 ![Forks](https://img.shields.io/github/forks/NCSU-SE-Fall-24/hw1.svg)
 ![Watchers](https://img.shields.io/github/watchers/NCSU-SE-Fall-24/hw1.svg)
 
