@@ -1,5 +1,6 @@
 {
     "conventionalCommits.scopes": [
-        "hw1"
+        "hw1",
+        "point-5"
     ]
 }
