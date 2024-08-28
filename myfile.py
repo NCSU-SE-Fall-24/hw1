@@ -20,3 +20,6 @@ def calculate_tax(amount, tax_rate):
         raise e
     except Exception as e:
         raise e
+
+if __name__ == "__main__":
+    calculate_tax(amount=100, tax_rate=7.25)
