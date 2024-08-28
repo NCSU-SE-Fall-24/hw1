@@ -22,4 +22,10 @@ jobs:
 
       - name: Run tests with coverage
         run: |
-          pytest --cov-report=xml --cov=test_myfile
+          pytest --cov=myfile
+
+      - name: Upload results to Codecov
+        if: always()
+        uses: codecov/codecov-action@v4
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}

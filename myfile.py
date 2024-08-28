@@ -7,10 +7,8 @@ def calculate_tax(amount, tax_rate):
     :return: it returns the total amount including the tax 
     """
     try: 
-        if amount < 0:
-            raise ValueError("Invalid Amount: Not allowed to enter less than 0")
-        elif tax_rate < 0:
-            raise ValueError("Invalid tax rate: Not allowed to enter less than 0%")
+        if amount < 0 or tax_rate < 0:
+            raise ValueError("Invalid Amount or Tax Rate: Not allowed to enter less than 0")
         else:
             tax = amount * (tax_rate / 100)
             total_amount = amount + tax
@@ -18,8 +16,3 @@ def calculate_tax(amount, tax_rate):
             return total_amount
     except ValueError as e:
         raise e
-    except Exception as e:
-        raise e
-
-if __name__ == "__main__":
-    calculate_tax(amount=100, tax_rate=7.25)
