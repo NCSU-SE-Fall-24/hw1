@@ -11,5 +11,6 @@
 ![Issues: Open](https://img.shields.io/github/issues/NCSU-SE-Fall-24/hw1.svg)
 ![Issues: Closed](https://img.shields.io/github/issues-closed/NCSU-SE-Fall-24/hw1.svg)
 
+![test](https://github.com/github/docs/actions/workflows/test.yml/badge.svg)
 # CSC 510, Software Engineering, Fall 2024 
 ## Homework 1
